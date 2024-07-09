@@ -25,5 +25,11 @@ export const theme = createTheme({
         maxWidth : "lg"
       }
     }
+  },
+  typography :{
+    body1  :{
+      color : '#0B1134CC'
+    }
   }
 });
+theme.shadows[1] = "1px 5px 22px lightgray"
